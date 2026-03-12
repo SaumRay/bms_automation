@@ -49,7 +49,7 @@ def driver(request):
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--disable-software-rasterizer")
 
-    driver = uc.Chrome(options=chrome_options, version_main=145)
+    driver = uc.Chrome(options=chrome_options)
     driver.implicitly_wait(IMPLICIT_WAIT)
     driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
 
