@@ -1,0 +1,8 @@
+selenium==4.21.0
+pytest==8.2.0
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+webdriver-manager==4.0.1
+Faker==25.0.0
+undetected-chromedriver==3.5.5
+setuptools==82.0.1
